@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>http://kensence.com/docfile/s-mix-control_ios.png</string>
+					<string></string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://kensence.com/docfile/s-mix-control_ios.png</string>
+					<string></string>
 				</dict>
 			</array>
 			<key>metadata</key>
