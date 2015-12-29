@@ -1,10 +1,10 @@
 # kensence.github.io #
 
-## function
+## 功能
 用于企业app发布plist文件跳转
 
-## info
+## 创建信息
 created by mjrao at 2015-12-28
 
-## e-mail
-mjrao at foxmail.com
+## 联系
+dev@kensence.com
