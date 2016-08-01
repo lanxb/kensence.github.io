@@ -1,25 +1,54 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <body>
 <head>
-<title>kensence s-mix control for ios download</title>
+    <meta charset="UTF-8">
+    <title>kensence s-mix control for ios download</title>
+    <link rel="stylesheet" href="font/iconfont.css"/>
+    <style type="text/css">
+        .box-wrap{
+            padding: 30px;
+        }
+        .box-cell{
+            float: left;
+            width: 50%;
+            text-align: center;
+            box-sizing: border-box;
+            border: solid 1px #eee;
+            padding: 30px;
+        }
+        .btn{
+            padding: 10px 20px;
+            border: solid 1px #0099db;
+            border-radius: 5px;
+            background: #00b0ed;
+            color: #fff;
+            font-size: 20px;
+        }
+        .btn:hover{
+            border-color: #0079c3;
+            background-color: #0099db;
+        }
+        .btn:active{
+            border-color: #004ea1;
+            background-color: #0079c3;
+        }
+    </style>
 </head>
-<br/>
-<br/>
-<br/>
-<br/>
-<p>
-	s-mixPro
-</p>
-<p>
-<img src="static/download.png"width = "100px";height = "200px" onclick="window.location.href='itms-services:///?action=download-manifest&url=https://kensence.github.io/appinfo.plist'"></img>
-
-</p>
-<br/>
-<p>
-	N-mix
-</p>
-<p>
-<img src="static/N-mix.png"width = "100px";height = "200px" onclick="window.location.href='itms-services:///?action=download-manifest&url=https://kensence.github.io/N-mixappinfo.plist'"></img>
-</p>
+<body>
+    <div class="box-wrap">
+        <div class="box-cell">
+            <h2>s-mixPro</h2>
+            <p>
+                <button class="btn"onclick="window.location.href='itms-services:///?action=download-manifest&url=https://kensence.github.io/appinfo.plist'"><i class="iconfont">&#xe6c7;</i>&nbsp;S-MIX客户端下载</button>
+            </p>
+        </div>
+        <div class="box-cell">
+            <h2>N-mix</h2>
+            <p>
+                <button class="btn"onclick="window.location.href='itms-services:///?action=download-manifest&url=https://kensence.github.io/N-mixappinfo.plist'"><i class="iconfont">&#xe6c7;</i>&nbsp;N-MIX客户端下载</button>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
